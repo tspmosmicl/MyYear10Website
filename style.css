@@ -5,7 +5,7 @@ html {
     padding: 0;
     height: 100%;
     /* The Font Family- Really important!! */
-    font-family: Arial, sans-serif;
+    font-family: Ibm plex serif,serif;
     box-sizing: border-box;
 }
 
@@ -23,23 +23,23 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(65, 142, 161);
     text-align: center;
     position: relative;
 }
 
 /* BIG text styling for the hero section text */
 .hero-text {
-    font-size: 4em;
+    font-size: 6em;
     font-weight: bold;
 }
 
 /* nice big font on a banner style background */
 .topic-title{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(71, 71, 71);
+    background-color: rgba(64, 130, 168, 0.452);
 }
 
 /* Three column grid with a nice big gap */
@@ -64,7 +64,7 @@ img {
 
 /* Styling for the topic card titles */
 .topic-card-text{
-    font-size: 1.5em;
+    font-size: 3em;
     margin-bottom: 0.5em;
     /* center align text */
     text-align: center;
