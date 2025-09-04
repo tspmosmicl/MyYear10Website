@@ -78,3 +78,20 @@ img {
     text-align: center;
     padding: 3em 3em;
 }
+
+a {
+    color: white;
+    text-decoration: none; /* optional: removes underline */
+  }
+  
+  a:visited {
+    color: white; /* makes visited links white too */
+  }
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: white; /* keeps visited links white too */
+  }
